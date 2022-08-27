@@ -113,7 +113,7 @@ public class SimplePresentationScreen extends JFrame {
 		textFieldGithub.setText(studentData.getGithubURL());
 		
 		
-		JLabel lblImagen = new JLabel("");
+		JLabel lblImagen = new JLabel();
 		lblImagen.setIcon(new ImageIcon(SimplePresentationScreen.class.getResource("/images/chickenIcon.png")));
 		contentPane.add(lblImagen, BorderLayout.EAST);
 		
