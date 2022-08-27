@@ -51,6 +51,7 @@ public class SimplePresentationScreen extends JFrame {
 	}
 	
 	private void init() {
+		setVisible(true);
 		// Tabbed Pane to student personal data
 		
 		tabbedPane = new JTabbedPane(JTabbedPane.TOP);
@@ -121,6 +122,6 @@ public class SimplePresentationScreen extends JFrame {
 		LocalDateTime now = LocalDateTime.now();
 		lblfecha = new JLabel("Esta ventana fue generada el "+ dtf.format(now));
 		contentPane.add(lblfecha, BorderLayout.SOUTH);
-		setVisible(true);
+		
 	}
 }
